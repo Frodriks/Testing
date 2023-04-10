@@ -1,0 +1,48 @@
+/* Vi tar ett helt element med CSS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.lorem {
+    font-size: 20px;
+    color: blue;
+}
+
+#lorem {
+    font-size: 25px;
+    color: red;
+}
+
+.doubble.class-name {
+    color: rgb(0, 128, 0);
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p span {
+    color: gray;
+}
